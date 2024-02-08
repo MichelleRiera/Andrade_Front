@@ -1,8 +1,7 @@
-<app-menu></app-menu>
 <app-cabecera></app-cabecera>
 
 <div class="container">
-    <h2>Registrar Nuevo Producto</h2>
+    <h2>Nuevo Articulo</h2>
   
     <form (submit)="registrarProducto()">
         <div class="form-group">
@@ -20,7 +19,7 @@
       </div>
   
       <div class="form-group">
-        <label for="category">Categoría:</label>
+        <label for="category">Talla:</label>
         <input type="text" id="category" name="category" [(ngModel)]="nuevoP.categoria" class="form-control" required>
       </div>
   

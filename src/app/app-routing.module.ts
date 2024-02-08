@@ -20,22 +20,21 @@ import { ProductoActualizarComponent } from './pages/producto/producto-actualiza
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
  
   //Cliente
-  {path: 'create-cliente',component: CreateClienteComponent},
+  {path: 'crearC',component: CreateClienteComponent},
   { path: 'actualizar-usuario/:id', component: ActualizarClienteComponent },
   { path: 'listar-cliente', component: ListarClienteComponent },
 
 
 //producto
-{path: 'crear-producto',component: ProductoComponent},
+{path: 'crearP',component: ProductoComponent},
 {path: 'listar-producto',component: ListarProductoComponent},
 { path: 'actualizar-producto/:id', component: ProductoActualizarComponent },
 
 
   //Home
-  {path: 'home',component: HomeComponent},
+  {path: 'inicio',component: HomeComponent},
 ];
 
 @NgModule({

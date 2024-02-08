@@ -1,0 +1,18 @@
+.cont1 {
+    display: flex;
+  }
+  
+  .menu {
+    width: 200px; /* Ajusta el ancho del menú según sea necesario */
+    background-color: #080808; /* Cambia el color de fondo según tus preferencias */
+  }
+  
+  .menu app-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
